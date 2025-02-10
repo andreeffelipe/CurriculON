@@ -1,0 +1,267 @@
+body{
+    font-family: Arial, sans-serif;
+    background: #df7b10;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+.form-curriculos{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.form-curriculos{
+    margin-right: 20px;
+    padding: 25px;
+    background: #f3d389;
+    border-radius: 30px;
+    box-shadow: 1px 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.form-curriculos{
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.form-curriculos, .lista-curriculo{
+    width: 48%;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 1px 0 3px rgba(0 , 0, 0, 0.2);
+}
+
+.lista-curriculo {
+    background: #F0F0F0;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.lista-curriculo h2{
+    font-weight: 700;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.form-curriculos h1{
+    font-weight: 900;
+    font-size: 25px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.form-curriculos{
+    width: 100%;
+}
+
+.form-curriculos form div.field{
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form-curriculos form div.field input{
+    width: 90%;
+    background: transparent;
+    border: 1px solid #4d4b4b;
+    border-radius: 4px;
+    padding: 10px;
+    outline: none;
+}
+
+.form-curriculos form div.field strong{
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.form-curriculos form div.field input:focus{
+    border-color: #075885;
+}
+ 
+.form-curriculos .btn-actions{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-curriculos div.btn-actions button{
+    width: 200px;
+    padding: 12px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    background: #06a044;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.field-imagem{
+    margin-bottom: 20px;
+}
+
+.form-curriculos form div.field-imagem label{
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #075885;
+    color: #fff;
+    border-radius: 4px;
+    width: 390px;
+    cursor: pointer;
+}
+
+.field-imagem label:hover{
+    background-color: #075885;
+}
+
+.field-imagem input[type="file"]{
+    display: none;
+}
+
+.field-imagem input[type="file"] + label:hover{
+    background-color: #075885;
+}
+
+.field-imagem input[type="file"] + label::before{
+    content: "Escolher Imagem";
+    font-weight: bold;
+}
+
+.field-imagem strong{
+    display: flex;
+    margin: 10px 0;
+}
+
+.imagem-nome{
+    font-size: 14px;
+}
+
+.lista-curriculo .curric-item img{
+    max-width: 100px;
+    max-height: 100px;
+    margin-bottom: 10px;
+}
+
+.field select{
+    display: flex;
+    width: 95%;
+    padding: 10px 15px;
+    background-color: #075885;
+    color: #FFF;
+    font-size: 14px;
+    cursor: pointer; 
+}
+
+.field input:focus {
+    border-color: #075885;
+}
+
+.btn-actions button:hover {
+
+    background: #075885;
+}
+
+#lista-curriculo {
+    margin-top: 20px;
+}
+
+.curric-item {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    flex-direction: column;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+}
+
+.delete-btn {
+    background-color: #ff3333;
+    color: #FFF;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.edite-btn{
+    margin-left: 8px;
+    background-color: #257013;
+    color: rgb(241, 239, 239);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.mensagem-sucesso{
+    background-color: rgba(0, 128, 0, 0.5);
+    color: #FFF;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+    width: 90%;
+}
+
+.mensagem-sucesso.hide{
+    opacity: 0;
+}
+
+@media only screen and (max-width: 700px){
+    .form-curriculos {
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+    .form-curriculos, .lista-curriculo{
+        width: calc(100% - 30px);
+        margin: 0;
+        padding: 15px;
+    }
+
+    .form-curriculos form div.field input,
+    .form-curriculos form div.field select,
+    .form-curriculos form div.field-imagem label{
+        width: calc(100% - 30px);
+        margin-right: 15px;
+    }
+    
+    .form-curriculos div.btn-actions button{
+        width: (100% - 30px);
+    }
+
+    .form-curriculos form div.field strong{
+        font-size: 16px;
+    }
+
+    .form-curriculos, .lista-curriculo{
+        order: 2;
+    }
+
+    #toggle{
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .mensagem-concluido {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    #lista-curriculo{
+        margin-top: 20px;
+        width: 100%;
+    }
+
+}

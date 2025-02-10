@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/andreeffelipe/CurriculON.git/static/css/main.143c956f.css",
+    "main.js": "/andreeffelipe/CurriculON.git/static/js/main.94431fe7.js",
+    "index.html": "/andreeffelipe/CurriculON.git/index.html",
+    "main.143c956f.css.map": "/andreeffelipe/CurriculON.git/static/css/main.143c956f.css.map",
+    "main.94431fe7.js.map": "/andreeffelipe/CurriculON.git/static/js/main.94431fe7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.143c956f.css",
+    "static/js/main.94431fe7.js"
+  ]
+}

@@ -1,0 +1,31 @@
+body{
+    -webkit-font-smoothing:antialiased!important;
+    background:#fbfbfb;
+    font-family:Arial,sans-serif
+}
+
+.form-produtos{
+    background:#fff;
+    border-radius:30px;
+    display:flex;
+    justify-content:space-between;
+    margin-right:20px;
+    margin:0 auto;
+    max-width:900px
+}
+
+.form-produtos,.lista-produto{
+    box-shadow:1px 0 3px rgba(0,0,0,.2);
+    padding:25px
+}
+
+.form-produtos,.lista-produto{
+    border-radius:15px;width:48%
+}
+
+.lista-produto{
+    background:#f0f0f0;border-radius:15px;padding:25px
+}
+
+.lista-produto h2{
+    color:#333;font-size:24px;font-weight:700;margin-bottom:15px}.form-produtos h1{color:#000;font-size:25px;font-weight:900;margin-bottom:10px}.form-produtos{width:100%}.form-produtos form div.field{flex-direction:column;margin-bottom:20px;width:100%}.form-produtos form div.field input{background:transparent;border:1px solid #4d4b4b;border-radius:4px;outline:none;padding:10px;width:90%}.form-produtos form div.field strong{font-size:18px;font-weight:700;margin-bottom:5px}.form-produtos form div.field input:focus{border-color:#23a0ff}.form-produtos .btn-actions{align-items:center;display:flex;flex-direction:column;margin-top:20px}.form-produtos div.btn-actions button{background:#23a0ff;border:none;border-radius:5px;color:#fff;cursor:pointer;font-size:18px;font-weight:700;margin-bottom:20px;padding:12px;width:200px}.field-imagem{margin-bottom:20px}.form-produtos form div.field-imagem label{background-color:#23a0ff;border-radius:4px;color:#fff;cursor:pointer;display:inline-block;padding:10px 15px;width:390px}.field-imagem label:hover{background-color:#0056b3}.field-imagem input[type=file]{display:none}.field-imagem input[type=file]+label:hover{background-color:#0056b3}.field-imagem input[type=file]+label:before{content:"Escolher Imagem";font-weight:700}.field-imagem strong{display:flex;margin:10px 0}.imagem-nome{font-size:14px}.lista-produto .product-item img{margin-bottom:10px;max-height:100px;max-width:100px}.field select{background-color:#23a0ff;color:#fff;cursor:pointer;display:flex;font-size:14px;padding:10px 15px;width:95%}.field input:focus{border-color:#23a0ff}.btn-actions button:hover{background:#0990f7}#lista-produto{margin-top:20px}.product-item{background:#fff;border-radius:8px;box-shadow:1px 1px 5px rgba(0,0,0,.2);flex-direction:column;margin-bottom:10px;padding:15px}.delete-btn{background-color:#f33;color:#fff}.delete-btn,.edite-btn{border:none;border-radius:4px;cursor:pointer;font-size:16px;padding:10px 15px}.edite-btn{background-color:#257013;color:#f1efef;margin-left:8px}.mensagem-sucesso{background-color:rgba(0,128,0,.5);border-radius:4px;color:#fff;font-weight:700;margin-bottom:5px;opacity:1;padding:10px;text-align:center;transition:opacity .5s ease-in-out;width:90%}.mensagem-sucesso.hide{opacity:0}@media only screen and (max-width:700px){.form-produtos{flex-direction:column;padding:0 10px}.form-produtos,.lista-produto{margin:0;padding:15px;width:calc(100% - 30px)}.form-produtos form div.field input,.form-produtos form div.field select,.form-produtos form div.field-imagem label{margin-right:15px;width:calc(100% - 30px)}.form-produtos div.btn-actions button{width:(100% - 30px)}.form-produtos form div.field strong{font-size:16px}.form-produtos,.lista-produto{order:2}#toggle{display:block;margin-top:20px;text-align:center}.mensagem-sucesso{margin:0 auto 20px;width:90%}#lista-produto{margin-top:20px;width:100%}}
